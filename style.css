@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Montserrat:wght@400;600&family=Poppins:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+h1,h2,h3{
+        font-family: 'Baloo 2', cursive;
+        font-size: 2em;
+}
+p, button, small{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 5px 0;
+    letter-spacing: 1px;
+    font-size:14px;
+    
+}
+body{
+    background-color: #E1E5F2;
+    color: #05181f;
+}
+.container{
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 2em;
+    max-width: 500px;
+    margin:4em auto;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.fab{
+    color: #05181f;
+    border: 1px solid #05181f;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px 5px;
+}
+.fab:hover{
+    background-color:#05181f ;
+    color: #E1E5F2;
+    transition:0.3s;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.btn{
+    display: block;
+        color: aliceblue;
+       background-color: rgb(19, 19, 19);
+        cursor: pointer;
+        text-transform: uppercase;
+       letter-spacing: 3px;
+       border: none;
+       border: 2px solid black;
+       padding: 5px 10px;
+       border-radius: 3px;
+       margin: 20px auto;
+       
+}
+.btn:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    color: #E1E5F2;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+/********************************************/
+
+  
+
+  
